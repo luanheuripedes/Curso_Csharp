@@ -41,7 +41,7 @@ namespace _5_Entrada_dados
             */
 
             /*
-            int n1 = int.Parse(Console.ReadLine());
+            int n1 = int.Parse(Console.ReadLine()); //parse converte a string para int
             char ch = char.Parse(Console.ReadLine());
             double n2  = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
@@ -83,6 +83,7 @@ namespace _5_Entrada_dados
             Console.WriteLine(ultimo);
             Console.WriteLine(idade);
             Console.WriteLine(altura.ToString("F2", CultureInfo.InvariantCulture));
+            
 
 
         }
