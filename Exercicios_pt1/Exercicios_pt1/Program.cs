@@ -47,6 +47,26 @@ namespace Exercicios_pt1
             Console.WriteLine($"{diferenca}");
             */
 
+            //Ex4
+            /*
+            int number,hours;
+            float hoursalary, salary;
+
+            Console.WriteLine("Digite seu numero");
+            number = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor que vc recebe por horas:");
+            hoursalary = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine("Digite o numero de horas trabalhadas");
+            hours = int.Parse(Console.ReadLine());
+
+            salary = hoursalary * hours;
+
+            Console.WriteLine($"Number={hours}");
+            Console.WriteLine($"Salary={salary.ToString("F2", CultureInfo.InvariantCulture)}");
+            */
+
         }
     }
 }
