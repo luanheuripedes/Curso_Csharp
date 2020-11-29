@@ -21,7 +21,7 @@ namespace Exercicios_pt1
             */
 
             //Ex2
-
+            /*
             double pi = 3.14159f,raio,area;
 
             Console.WriteLine("Digite o raio do circulo:");
@@ -30,6 +30,22 @@ namespace Exercicios_pt1
             area = Math.Pow(raio,2.0) * pi;
 
             Console.WriteLine($"A={area.ToString("F4",CultureInfo.InvariantCulture)}");
+            */
+
+            //Ex3
+            /*
+            int a, b, c, d,diferenca;
+
+            Console.WriteLine("Digite 4 valores inteiros");
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            c = int.Parse(Console.ReadLine());
+            d = int.Parse(Console.ReadLine());
+
+            diferenca = (a * b - c * d);
+
+            Console.WriteLine($"{diferenca}");
+            */
 
         }
     }
