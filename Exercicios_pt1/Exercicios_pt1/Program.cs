@@ -29,7 +29,7 @@ namespace Exercicios_pt1
 
             area = Math.Pow(raio,2.0) * pi;
 
-            Console.WriteLine($"A={area:f4}");
+            Console.WriteLine($"A={area.ToString("F4",CultureInfo.InvariantCulture)}");
 
         }
     }
