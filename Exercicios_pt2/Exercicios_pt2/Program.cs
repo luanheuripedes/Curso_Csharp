@@ -35,6 +35,7 @@ namespace Exercicios_pt2
             */
 
             //ex3
+            /*
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
 
@@ -46,7 +47,26 @@ namespace Exercicios_pt2
             {
                 Console.WriteLine("Não são multiplos");
             }
+            */
 
+            //Ex4
+            /*
+            string[] horas = Console.ReadLine().Split(' ');
+            int hInicial = int.Parse(horas[0]);
+            int hFinal = int.Parse(horas[1]);
+
+            int duracao;
+
+            if(hInicial < hFinal)
+            {
+                duracao = hFinal - hInicial;
+            }
+            else
+            {
+                duracao = 24 - hInicial + hFinal;
+            }
+            Console.WriteLine($"o JOGO DUROU: {duracao}");
+            */
         }
     }
 }
