@@ -67,6 +67,23 @@ namespace Exercicios_pt1
             Console.WriteLine($"Salary={salary.ToString("F2", CultureInfo.InvariantCulture)}");
             */
 
+            //Ex5
+            float valor;
+            Console.WriteLine("Peça 1");
+            string[] vet1 = Console.ReadLine().Split(' ');
+            int c1 = int.Parse(vet1[0]);
+            int n1 = int.Parse(vet1[1]);
+            float p1 = float.Parse(vet1[2], CultureInfo.InvariantCulture);
+
+            Console.WriteLine("Peça 2");
+            string[] vet2 = Console.ReadLine().Split(' ');
+            int c2 = int.Parse(vet2[0]);
+            int n2 = int.Parse(vet2[1]);
+            float p2 = float.Parse(vet2[2],CultureInfo.InvariantCulture);
+
+            valor = n1*p1 + n2*p2;
+
+            Console.WriteLine($"Valor a pagar: R${valor.ToString("f2",CultureInfo.InvariantCulture)}");
         }
     }
 }
