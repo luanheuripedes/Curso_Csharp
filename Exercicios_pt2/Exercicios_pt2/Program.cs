@@ -34,7 +34,19 @@ namespace Exercicios_pt2
             }
             */
 
-            //
+            //ex3
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+
+            if(a % b == 0)
+            {
+                Console.WriteLine("São Multiplos");
+            }
+            else
+            {
+                Console.WriteLine("Não são multiplos");
+            }
+
         }
     }
 }
