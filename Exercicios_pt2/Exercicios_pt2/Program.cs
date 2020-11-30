@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Exercicios_pt2
 {
@@ -67,6 +68,40 @@ namespace Exercicios_pt2
             }
             Console.WriteLine($"o JOGO DUROU: {duracao}");
             */
+
+            //ex5
+            string[] produto = Console.ReadLine().Split(' ');
+            int codigo = int.Parse(produto[0]);
+            int qtd = int.Parse(produto[1]);
+            float valorFinal = 0.00f;
+
+            if(codigo == 1)
+            {
+                float preco = 4.00f;
+                valorFinal = (float)preco * qtd;
+            }else if(codigo == 2)
+            {
+                float preco = 4.50f;
+                valorFinal = (float)preco * qtd;
+            }
+            else if(codigo == 3)
+            {
+                float preco = 5.00f;
+                valorFinal = (float)preco * qtd;
+            }
+            else if (codigo == 4)
+            {
+                float preco = 2.00f;
+                valorFinal = (float)preco * qtd;
+            }
+            else if(codigo == 5)
+            {
+                float preco = 1.50f;
+                valorFinal = (float)preco * qtd;
+            }
+
+            Console.WriteLine($"Total: {valorFinal.ToString("f2", CultureInfo.InvariantCulture)}");
+
         }
     }
 }
