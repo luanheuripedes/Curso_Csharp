@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clezieu_array", "clezieu_string\clezieu_array.csproj", "{7D2000C5-4979-4486-82D5-3B08FDD8234C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D2000C5-4979-4486-82D5-3B08FDD8234C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2000C5-4979-4486-82D5-3B08FDD8234C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2000C5-4979-4486-82D5-3B08FDD8234C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2000C5-4979-4486-82D5-3B08FDD8234C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68956C52-FE1D-40F2-90DB-E6948CD78D40}
+	EndGlobalSection
+EndGlobal
